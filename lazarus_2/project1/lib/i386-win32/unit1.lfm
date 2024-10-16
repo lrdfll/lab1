@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 259
+  Height = 240
+  Top = 127
+  Width = 320
+  Caption = 'Значение функции'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Edit1: TEdit
+    Left = 141
+    Height = 23
+    Top = 40
+    Width = 114
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 142
+    Height = 23
+    Top = 67
+    Width = 113
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 141
+    Height = 23
+    Top = 97
+    Width = 114
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 80
+    Height = 34
+    Top = 128
+    Width = 114
+    Caption = 'Выполнить'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 80
+    Height = 34
+    Top = 176
+    Width = 114
+    Caption = 'Очистить'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 18
+    Height = 15
+    Top = 40
+    Width = 109
+    Caption = 'Введите значение а:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 18
+    Height = 15
+    Top = 67
+    Width = 110
+    Caption = 'Введите значение b:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 18
+    Height = 15
+    Top = 97
+    Width = 115
+    Caption = 'Значение функции f:'
+    ParentColor = False
+  end
+end

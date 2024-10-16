@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 386
+  Height = 240
+  Top = 112
+  Width = 515
+  Caption = 'Вычисление квадрата'
+  ClientHeight = 240
+  ClientWidth = 515
+  LCLVersion = '2.2.6.0'
+  object Edit1: TEdit
+    Left = 264
+    Height = 23
+    Top = 17
+    Width = 113
+    OnChange = Edit1Change
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 104
+    Height = 15
+    Top = 17
+    Width = 150
+    Caption = 'Введите площадь квадрата:'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Edit2: TEdit
+    Left = 128
+    Height = 23
+    Top = 56
+    Width = 152
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 0
+    Height = 15
+    Top = 64
+    Width = 112
+    Caption = 'Сторона квадрата = '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 3
+    Height = 15
+    Top = 96
+    Width = 124
+    Caption = 'Диагональ квадрата = '
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 3
+    Height = 15
+    Top = 135
+    Width = 251
+    Caption = 'Площадь круга, описанного вокруг квадрата:'
+    ParentColor = False
+  end
+  object Edit3: TEdit
+    Left = 128
+    Height = 23
+    Top = 96
+    Width = 152
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 264
+    Height = 23
+    Top = 135
+    Width = 160
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 48
+    Top = 176
+    Width = 139
+    Caption = 'Вычислить'
+    OnClick = Button1Click
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 352
+    Height = 48
+    Top = 176
+    Width = 144
+    Caption = 'Очистить'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+end
